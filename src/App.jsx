@@ -14,7 +14,7 @@ UseCallbackExample
 
 function App() {
   return (
-    <Router>
+    <Router basename='react-playground'>
       <div className="min-h-screen bg-gray-50 flex flex-col items-center">
         {/* Navigation */}
         <nav className="w-full max-w-3/4 flex flex-wrap justify-between p-4 bg-white shadow-md">

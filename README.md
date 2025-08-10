@@ -1,12 +1,33 @@
-# React + Vite
+Following frequently used React hooks will be exercised in this repo:
+[See the live render of this repo here](https://gibil-dubsar.github.io/react-playground/)
+1. **useState**  
+   The cornerstone for managing component state. Almost every component that needs to store data uses it.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+2. **useEffect**  
+   Essential for handling side effects such as data fetching, subscriptions, and manually interacting with the DOM.
 
-Currently, two official plugins are available:
+3. **useContext**  
+   Frequently used for passing data through the component tree without prop drilling, especially in global state or theming scenarios.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+4. **useRef**  
+   Widely used both for accessing DOM elements and for keeping mutable values that persist across renders without causing re-renders.
 
-## Expanding the ESLint configuration
+5. **useReducer**  
+   Often chosen over useState for managing more complex state logic in a predictable way.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+6. **useCallback**  
+   Useful for memoizing functions, particularly when passing callbacks to child components to prevent unnecessary re-renders.
+
+7. **useMemo**  
+   Helps optimize performance by memoizing expensive computations so that they’re only recalculated when necessary.
+
+8. **useLayoutEffect**  
+   Similar to useEffect, but it fires synchronously after all DOM mutations. It’s more specialized and is used when you need to read layout from the DOM and synchronously re-render.
+
+9. **useImperativeHandle**  
+   Used in conjunction with forwardRef to customize the instance value that is exposed to parent components when using refs. This hook is less common but crucial in certain advanced component scenarios.
+
+10. **useDebugValue**  
+    Mainly intended for custom hooks, it helps display a label for custom hooks in React DevTools. It’s rarely needed in everyday development.
+
+This list is a general guide reflecting common usage patterns and discussions in the React community. Depending on your project’s needs, you might rely more on some hooks and less on others. For more details, you can refer to the [React documentation](https://reactjs.org/docs/hooks-overview.html) and various community articles that explore these hooks in depth. citeturn0search0
