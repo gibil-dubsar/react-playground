@@ -1,5 +1,7 @@
-Following frequently used React hooks will be exercised in this repo:
-[See the live render of this repo here](https://gibil-dubsar.github.io/react-playground/)
+### Following frequently used React hooks will be exercised in this repo:  
+[See the live render of this repo here](https://gibil-dubsar.github.io/react-playground/)  
+[The source code](https://github.com/gibil-dubsar/react-playground)  
+
 1. **useState**  
    The cornerstone for managing component state. Almost every component that needs to store data uses it.
 
@@ -30,4 +32,4 @@ Following frequently used React hooks will be exercised in this repo:
 10. **useDebugValue**  
     Mainly intended for custom hooks, it helps display a label for custom hooks in React DevTools. It’s rarely needed in everyday development.
 
-This list is a general guide reflecting common usage patterns and discussions in the React community. Depending on your project’s needs, you might rely more on some hooks and less on others. For more details, you can refer to the [React documentation](https://reactjs.org/docs/hooks-overview.html) and various community articles that explore these hooks in depth. citeturn0search0
+This list is a general guide reflecting common usage patterns and discussions in the React community. Depending on your project’s needs, you might rely more on some hooks and less on others. For more details, you can refer to the [React documentation](https://reactjs.org/docs/hooks-overview.html) and various community articles that explore these hooks in depth.
