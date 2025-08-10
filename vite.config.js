@@ -11,6 +11,9 @@ export default defineConfig({
             Pages({
       dirs: 'pages',         // directory where your pages are stored
       extensions: ['jsx', 'js'], // include any file extensions you use
+    base: '/react-playground/'
     }),
   ],
 })
+
+
